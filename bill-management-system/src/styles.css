@@ -1,1 +1,53 @@
-/* You can add global styles to this file, and also import other style files */
+/* Header Style */
+header {
+    color: #D1D5DB; /* Gray text */
+    background-color: #111827; /* Dark gray background */
+    font-family: sans-serif;
+}
+
+/* Container */
+header .container {
+    max-width: 1300px; /* Increased the max-width slightly */
+    margin: 0 auto;
+    padding: 1.25rem 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo Link */
+header .title-font {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Navigation Style */
+nav {
+    margin-right: auto;
+    margin-left: 1rem;
+    padding-left: 1rem;
+    padding-top: 0.25rem;
+    border-left: 1px solid #4B5563; /* Light gray border */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Navigation Links */
+nav a {
+    color: #D1D5DB;
+    margin-right: 1.25rem;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s ease;
+}
+
+/* Hover Effect */
+nav a:hover {
+    color: #ffffff; /* White text on hover */
+}
