@@ -8,7 +8,7 @@ import { GenerateBillComponent } from './generate-bill/generate-bill.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, DashboardComponent, HomeComponent, PayBillComponent,ViewBillComponent,GenerateBillComponent],
+  imports: [RouterOutlet, DashboardComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
